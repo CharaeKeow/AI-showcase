@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Project Showcase</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class='main-wrapper'>
+            <img class="main__background" src="./hero.jpg" alt="Main section background image.">
+            <div class="darken__background"></div>
+        <nav class ="navbar">
+            <div class="group-name">
+                <span>
+                    Group 2
+                </span>
+            </div>
+            <ul class="elements">
+                <a href="#home" class="nav-item">
+                    <li>Home</li>
+                </a>
+                <a href="#about" class="nav-item">
+                    <li>About</li>
+                </a>
+                <a href="#our-team" class="nav-item">
+                    <li>Our Team</li>
+                </a>
+                <a href="#contact" class="nav-item">
+                    <li>Try</li>
+                </a>
+            </ul>
+        </nav>
+        
+        <div class="main-content">
+            <h3>PLang Recommendation System</h3>
+            <h5>An expert system to recommend  the first <br>programming language that <em>you</em> should learn.</h5>
+            <div class="main-btns">
+                <a href="#about" class="left-btn">How it works?</a>
+                <a href="#" class="right-btn">Try</a>
+            </div>
+        </div>
+    </div>    
+    
+    <!--Overview-->
+    <div class="overview">
+        <div class="overview-text">
+            <h3 class="header">Overview</h3>
+            <p>A little bit about our expert system...</p>
+        </div>
+        <div class="overview-details">
+            <div class="details-boxes">
+                <i class="fab fa-3x fa-python"></i>
+                <hr>
+                <h6>Powered by Python</h6>
+                <p>
+                    A powerful, fast, can run anywhere, and one of the most popular
+                    programming language used to develop AI.        
+                </p>
+            </div>
+            <div class="details-boxes">
+                <i class="fas fa-3x fa-brain"></i>    
+                <hr>
+                <h6>Accurate</h6>
+                <p>
+                    We made a lot of thorough research by analyzing current
+                    <a href="https://insights.stackoverflow.com/survey/2019" target="_blank">trends</a>, 
+                    job market demands, and reading a lot of <a href="https://hackr.io/blog/best-programming-languages-to-learn-2019-jobs-future" target="_blank">articles</a>
+                    (i.e. expert's opinion) regarding picking the best <a href="http://carlcheo.com/wp-content/uploads/2014/12/which-programming-language-should-i-learn-first-infographic.png" target="_blank">first programming</a>
+                    language.                
+                </p>
+            </div>
+            <div class="details-boxes">
+                <i class="fas fa-3x fa-laptop-code"></i>                                
+                <hr>
+                <h6>Portable</h6>
+                <p>
+                    The use of Python enables this program
+                    can run on any platform (Windows, Mac, Linux                  <br>
+                    as long as there is Python 3 installed.
+                </p>
+            </div>
+            <div class="details-boxes">
+                <i class="fas fa-3x fa-globe"></i>
+                <hr>
+                <h6>Public</h6>
+                <p>
+                    Our source code is public - i.e. other people can view it and help 
+                    to expand our program. Besides, we are working to increase the choices
+                    and the suggestion of programming languages to make it better.
+                </p>
+            </div>
+        </div>
+    </div>
 
+    <!--About-->
+    <div class="about">
+        <div class="w">
+            <h4 class="about-title">What is PLang Recommendation System?</h4>
+            <p>
+                PLang is an <a href="https://en.wikipedia.org/wiki/Rule-based_system" target="_blank">rule-based</a> expert system that is 
+                developed and use to recommend the first programming language that user
+                should learn. This expert system is developed with people who are interested in learning programming
+                language, but don't know where to start, in mind. Our program uses simple, text-based console app to 
+                gain user's input and display the result accordingly.
+            </p>                            
+        </div>
+        <div class="w">
+            <h4 class="about-title">Why did we develop it?</h4>
+            <p>
+                Choosing the first programming language is hard. Furthermore, picking the right one, the one that fits our need is much, much
+                harder. Although the barrier to entry the programming world is fairly low - and also cheap, as much of resources and tools can be
+                downloaded for free online - the overabundace of programming languages could overwhelm beginner and people who want to learn to code.
+                This is known as <a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice" target="_blank">Paradox of Choice</a>.                
+            </p>
+            <p>
+                I remember the first time I decided dive into the programming world. I spent days and days looking for the best language to start 
+                with, and well, it ended up with me switching back and forth between Python and Javascript. And that is not only a waste of time, as 
+                indecision is worse than making a bad decision. And I think that a lot of people out there might share the same problem as mine.
+            </p>
+            <p>
+                So by developing this expert system, we hope that we can help the newcomers, future computer science students, and aspiring developers
+                to decide the best first programming language that they should learn, no matter as the tool that will help them secure a career in this 
+                interesting field or as a stepping stone, enough to get their feet wet, for their journey as a developer, as programming is a <a href="https://medium.com/zerotomastery/learn-to-code-in-2019-get-hired-and-have-fun-along-the-way-d4197f96be27" target="_blank">big, fun world</a>.                
+            </p>
+        </div>
+        <div class="w how">
+            <h4 class="about-title">How did we develop it?</h4>
+                <div class="sub-how">
+                    <div class='text'>
+                    <h5 class="smaller-title">1. Knowledge Acquisition</h5>
+                    <p>
+                        Knowledge is essential for an expert system to work. And one of the most important step
+                        when developing an expert system is the knowledge acquisition phase, where we extract knowledge from 
+                        expert to transfer it into production rules. 
+                    </p>    
+                    <p>
+                        For knowledge acquisition, we used the power of the information on the internet to make our research.
+                        We read numerous articles and blogs written by developers (who, we think are expert in their field and the respective
+                        programming language that they use), analyze the job markets and Google trends to verify the article.                 
+                    </p>
+                    <p>
+                        We list all the list of the resources that we use <a href="https://github.com/CharaeKeow/expertSystem" target="_blank">here</a>.
+                    </p>
+                </div>
+                <div class="snapshot knowledge_acquisition">
+                    <img src="./knowledge_acquisition.PNG" alt="Production rule examples">
+                    <figcaption>Production rules of our expert system</figcaption>
+                </div>
+            </div>
+            <div class="sub-how">
+                <h5 class="smaller-title">2. Design the Inference Engine</h5>
+                <p>
+                    After gather the knowledge and making the production rules, we design the core of our expert system
+                    the Inference Engine. Basically, inference engine is inferring knowlege that is represented in rules
+                    - i.e. production rules - and draw conclusion from those rules.
+                </p>
+                <p>
+                    For our inference engine, we use forward chaining - i.e. we start with facts and use rules
+                    to draw conclusion or take actions. We use forward chaining for our expert system
+                    as we think its goal-driven approach is the most suitable for recommendation system.
+                </p>
+                <p>
+                    How forward chaining works is fairly simple. First, the program will analyze problem by looking for the facts 
+                    that match the condition of the IF-THEN rules. Once it found the matching rules, it will select and execute the rules.
+                </p>
+            </div>
+            <div class="sub-how">
+                <div class="text">
+                    <h5 class="smaller-title">3. Code!</h5>
+                    <p>
+                        Now that we have all the data needed, and the production rules plus the inference engine, it's time to 
+                        to do the coding. For developing the expert system, we use Python, rather than other conventional tools such as <a href="http://clipsrules.sourceforge.net/" target="_blank">CLIPS</a>.
+                        This is mainly due to personal preference, as we think it is easier to do this expert system in Python. Besides, we don't want to spend too much
+                        time on learning new syntax as we are fairly familiar with Python.
+                    </p>
+                    <p>
+                        The coding process is rather simple, as the production rule is basically <code>if</code> statement. We use
+                        <code>if</code> else if ( or <code>elif</code> in Python) plus <strong>nested <code>if</code></strong> to 
+                        match and execute the production rules.
+                    </p>
+                </div>
+                <div class="snapshot snippet">
+                    <img src="./codeSnippet.PNG" alt="Python code snippet.">
+                    <figcaption>Our code snippet</figcaption>
+                </div>
+            </div>
+            <div class="sub-how">
+                <div class="text">
+                    <h5 class="smaller-title">4. The UI</h5>
+                    <p>
+                        Our expert system is only a console-only app. Thus, it can be used via a text-only user
+                        interface through the command line or terminal. Still, it is fully functional and can give 
+                        the accurate result as desired.
+                    </p>
+                    <p>
+                        During the execution, the program will ask the user some question. Then, the user can select the 
+                        option by typing the number of the option. Then, the inference engine will match, select, and execute
+                        any matching rule behind the scene. 
+                    </p>
+                    <p>
+                        Once the conclusion is drawn, it will print the recommended programming language for the user plus a little
+                        bit fun facts about the language.
+                    </p>
+                    <div class="snapshot execution">
+                        <img src="./execution.PNG" alt="During program execution">
+                        <figcaption>The snapshot of the program using execution.</figcaption>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="w">
+            <h4 class="about-title">When to use this program?</h5>
+            <p>
+                Although this program is developed with anyone who want to pick his/her 
+                programming language in mind, in can also be used by anyone who simply want to
+                learn a new language. 
+            </p>
+            <p>
+                However, it must be noted that this program might be biased toward certain programming
+                language (as expert usually do). Also, the technological landscape is changing so fast that
+                and may render this expert system's recommendation obselete some time in the future. Additionally,
+                this expert system doesn't take all programming languages into our knowledge base, so we might
+                overlook or oversimplify in some respects. 
+            </p>
+            <p>
+                So, noted that you can always take the suggestion of this expert system, but also check the current
+                trend and you can always decide which language is the right fit for you, as there might not be one size
+                fits all for all problems.
+            </p>
+        </div>  
+    </div>             
+
+    <div class="team">
+        <div class="text">
+            <h3 class="header">Our Team</h3>
+            <p>We proudly present our members.</p>
+        </div>
+        <div class="content">
+        <div class="members">
+            <div class="details">
+                <div class="photo"><img src="./IMG_3680_2.JPG" alt="Charae"></div>
+                <h4 class="name">Charae a/L Eh Sin</h4>
+                <h5 class="position">Designer & QA</h5>
+                <p>
+                    The man behind our expert system UI <i class="fas fa-edit"></i> and our website.
+                </p>
+            </div>
+        </div>
+        <div class="members">
+            <div class="details">
+                <div class="photo"><img src="./WhatsApp Image 2019-05-30 at 02.01.59.jpeg" alt=""></div>
+                <h4 class="name">Agilan</h4>
+                <h5 class="position">Developer</h5>
+                <p>
+                    The guy that makes things work <i class="fas fa-wrench"></i> behind the scene.
+                </p>
+            </div>
+        </div>
+        <div class="members">
+            <div class="details">
+                <div class="photo"><img src="./1036_1043199769076392_6713788417418224709_n.jpg" alt=""></div>
+                <h4 class="name">Khalid</h4>
+                <h5 class="position">Knowledge Engineer</h5>
+                <p>
+                    The one that encoded knowledge <i class="fas fa-book-open"></i> for our expert system.
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="conclusion"><div class="text">
+        <h3 class="header">Bottom line</h3>
+            <p>
+                Developing this expert system is a new experience for us. Not only we have the chance
+                what we have learned during our AI class, we also gain a lot of information while doing 
+                the research. These experience will surely help latter in our course. As for the system itself,
+                it is still far from other leading and <a href="https://en.wikipedia.org/wiki/Mycin" target="_blank">well known</a> expert system. 
+                But, we plan to improve this system by adding more knowledge and rules. The other thing on our radar is 
+                making a better, perhaps web-based, UI for this expert system. The code is hosted on GitHub means
+                that we can make any tweak anytime and this will also open the door for others to view and
+                help to improve this system, too.
+            </p>                
+        </div>
+        <div class='code'>
+            <a style="color: #000" target="_blank" href="https://github.com/CharaeKeow/expertSystem""><i class="fab fa-5x fa-github"></i></a>
+            <p>View our code on <a href="https://github.com/CharaeKeow/expertSystem" target="_blank">GitHub.</a></p>
+        </div>
+    </div>
+    </div>    
+    <footer>
+            <!--Coded and designed by <a href="https://twitter.com/charae_keow" target="_blank">Charae.Keow.</a>-->
+        Made with <i class="fas fa-heart"></i> by Charae Keow.     <a href="https://twitter.com/charae_keow" target="_blank">Twitter</a>     <a href="https://github.com/CharaeKeow" target="_blank">Github</a>
+    </footer>
+</body>
+<script src="./index.js"></script>
+</html>
