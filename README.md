@@ -9,3 +9,5 @@ should learn. We use Javascript and probably CLIPS Tool for our project. I inten
 to work on the web, as that is way much cooler than running on clips' bland interface, but
 we will see to it later.
 
+#### Website link
+(https://charaekeow.github.io/AI-showcase/)
