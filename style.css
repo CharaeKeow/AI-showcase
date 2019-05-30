@@ -326,6 +326,16 @@ a:hover{
     cursor: pointer;
 }
 
+.conclusion .source {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.conclusion .link {
+    display:flex;
+    flex-direction: column;
+}
+
 /*footer*/
 footer {    
     background-color: rgba(59, 101, 201, 1);    
